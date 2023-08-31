@@ -4,37 +4,11 @@
 
 > If you find a Bug or have a feature request: https://github.com/zhangpanzhan/obsidian-markdown-formatting-assistant-plugin/issues
 
-![](assets/Obsidian_Overview.png)
 
 ## Side Panel
 
 The Side Panel can be opened by the Ribbon Icon on the left side. If you changed the side (left or right) of the panel in the settings, just hit this butten/icon again and it will reload on the right side.
 
-### Order and expansion of the Sections
-
-It is possible to change the order of the sections according to the personal wishes. Furthermore it is possible to expand and shrink every section to keep the overview.
-
-![](assets/OrderableAndExpandableRows.gif)
-
-### Markdown Section
-
-![](assets/Panel_Overview.png)
-
-### Latex Section
-
-> Latex Functions only work if they are in a latex equation section like $...$ or $$...$$.
-
-![](assets/Panel_Overview_Latex.png)
-
-### Greek Letters Section
-
-> Greek Letters only work if they are in a latex equation section like $...$ or $$...$$.
-
-![](assets/Panel_Overview_Greek_Letters.png)
-
-### Callouts Section
-
-![](assets/calloutsMenu.jpg)
 
 ## Suggestion Window with Shortcut
 
@@ -56,7 +30,6 @@ The shortcut/hotkey `ALT+Q` was selected becaus it can be  comfortable reached w
 ## Settings
 
 - Side Pane Side
-
   - default: right
   - options: right, left
   - Defines the side of the side pane. By default the side pane will open on the right side/leaf.
