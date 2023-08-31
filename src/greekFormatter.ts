@@ -63,13 +63,13 @@ export const greekLowerCaseFormatterSettings = {
     shift: 6,
     objectType: 'greekFormatterSetting',
   },
-  iota: {
-    des: 'iota',
-    icon: 'iota',
-    symbol: '\\iota',
-    shift: 5,
-    objectType: 'greekFormatterSetting',
-  },
+  // iota: {
+  //   des: 'iota',
+  //   icon: 'iota',
+  //   symbol: '\\iota',
+  //   shift: 5,
+  //   objectType: 'greekFormatterSetting',
+  // },
   kappa: {
     des: 'kappa',
     icon: 'kappa',
@@ -91,13 +91,13 @@ export const greekLowerCaseFormatterSettings = {
     shift: 3,
     objectType: 'greekFormatterSetting',
   },
-  nu: {
-    des: 'nu',
-    icon: 'ny',
-    symbol: '\\nu',
-    shift: 3,
-    objectType: 'greekFormatterSetting',
-  },
+  // nu: {
+  //   des: 'nu',
+  //   icon: 'ny',
+  //   symbol: '\\nu',
+  //   shift: 3,
+  //   objectType: 'greekFormatterSetting',
+  // },
   xi: {
     des: 'xi',
     icon: 'xi',
@@ -133,13 +133,13 @@ export const greekLowerCaseFormatterSettings = {
     shift: 4,
     objectType: 'greekFormatterSetting',
   },
-  upsilon: {
-    des: 'upsilon',
-    icon: 'ypsilon',
-    symbol: '\\upsilon',
-    shift: 8,
-    objectType: 'greekFormatterSetting',
-  },
+  // upsilon: {
+  //   des: 'upsilon',
+  //   icon: 'ypsilon',
+  //   symbol: '\\upsilon',
+  //   shift: 8,
+  //   objectType: 'greekFormatterSetting',
+  // },
   phi: {
     des: 'phi',
     icon: 'phi',

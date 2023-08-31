@@ -189,8 +189,8 @@ export class SidePanelControlView extends ItemView {
 
       const info = content.createEl('p');
       info.style.textAlign = 'center';
-      info.style.marginTop = '10px';
-      info.style.marginBottom = '10px';
+      info.style.marginTop = '5px';
+      info.style.marginBottom = '5px';
       // const link = info.createEl('a');
       // link.appendText('Overview of greek letters');
       // link.style.textAlign = 'center';
@@ -202,10 +202,10 @@ export class SidePanelControlView extends ItemView {
     // --------------
     // Colors
     // --------------
-    const addColorsSection = () => {
-      const content = this.addSelectableHeader(mainDiv, 'colors', 'Colors');
-      this.addColorBody(content);
-    };
+    // const addColorsSection = () => {
+    //   const content = this.addSelectableHeader(mainDiv, 'colors', 'Colors');
+    //   this.addColorBody(content);
+    // };
 
     // --------------
     // Callouts
@@ -222,7 +222,7 @@ export class SidePanelControlView extends ItemView {
       // html: addHtmlSection,
       latex: addLatexSection,
       greekLetters: addGreekLettersSection,
-      colors: addColorsSection,
+      // colors: addColorsSection,
       callouts: addCalloutsSection,
     };
 
@@ -718,7 +718,7 @@ export class SidePanelControlView extends ItemView {
       input.name = id;
       let label = div.createEl('label');
       label.appendText(text);
-      label.style.fontSize = '12px';
+      label.style.fontSize = '8px';
     };
 
     addCheckbox('inputColorTagCheckBox', ' Add "color: {your color}"');
@@ -747,7 +747,7 @@ export class SidePanelControlView extends ItemView {
       'Saved colors can be directly edited in the settings.',
     );
     settingsInfo.style.textAlign = 'left';
-    settingsInfo.style.fontSize = '10px';
+    settingsInfo.style.fontSize = '8px';
     settingsInfo.style.marginTop = '0px';
 
     const lastSavedColors = colorSection.createEl('div');
@@ -758,8 +758,8 @@ export class SidePanelControlView extends ItemView {
 
     const info = colorSection.createEl('p');
     info.style.textAlign = 'center';
-    info.style.marginTop = '10px';
-    info.style.marginBottom = '10px';
+    info.style.marginTop = '5px';
+    info.style.marginBottom = '5px';
 
     // const link = info.createEl('a');
     // link.appendText('Do you need some Help?');
@@ -783,8 +783,8 @@ export class SidePanelControlView extends ItemView {
 
     let header = mainDiv.createEl('div');
     header.id = 'lastSavedHeaderDiv' + regionName;
-    let hr = mainDiv.createEl('hr');
-    let title = header.createEl('h4');
+    // let hr = mainDiv.createEl('hr');
+    let title = header.createEl('h6');
     let arrowButton = header.createDiv({ cls: 'nav-action-button' });
     let content = mainDiv.createEl('div');
 
@@ -860,8 +860,8 @@ export class SidePanelControlView extends ItemView {
     arrowButton.style.bottom = '0px';
     arrowButton.style.marginTop = 'auto';
     arrowButton.style.marginBottom = 'auto';
-    arrowButton.style.width = '24px';
-    arrowButton.style.height = '24px';
+    arrowButton.style.width = '6px';
+    arrowButton.style.height = '6px';
     const region = getRegion(regionName);
     if (region && region.active && region.visible) {
       content.style.display = 'block';
@@ -889,8 +889,8 @@ export class SidePanelControlView extends ItemView {
       }
     });
 
-    hr.style.marginTop = '0px';
-    hr.style.marginBottom = '10px';
+    // hr.style.marginTop = '0px';
+    // hr.style.marginBottom = '0px';
 
     return content;
   }
